@@ -1,0 +1,117 @@
+nav ul li.nav-item a{
+	color: #FFF !important;
+}
+
+nav ul li.nav-item a:hover{
+	color: #000 !important;
+}
+
+header{
+	margin-bottom: 56px !important;
+}
+
+img{
+	width: 100%;
+	height: 300px !important;
+}
+
+ion-icon{
+   font-size: 120px;
+   -webkit-transition: opacity .3s;
+   -moz-transition: opacity .3s;
+   -ms-transition: opacity .3s;
+   -o-transition: opacity .3s;
+   transition: opacity .3s;
+}
+
+ion-icon:hover{
+	opacity: .3;
+}
+
+/*** Classes ***/
+.servicos, .produto, .perg-resp, .sobre-empresa, .contato{
+	background-color: #f9faff;
+	border-radius: 0rem;
+	margin-bottom: 0rem !important;
+}
+
+.depoimento{
+	background-color: #0b3774;
+	border-radius: 0rem;
+	margin-bottom: 0rem !important;
+}
+
+.cadastro-email{
+	border-radius: 0rem;
+	margin-bottom: 0rem !important;
+	background-image: url(../img/maos.jpg);
+}
+
+.paralaxe-email{
+	min-height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+/* inicio rodape */
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	margin-bottom: 60px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	color: #FFF;
+}
+/* fim rodape*/
+
+/* Blog */
+.blog{
+	background-color: #f9faff;
+	border-radius: 0rem;
+	margin-bottom: 0rem !important;
+	padding: 2rem 2rem;
+}
+
+@media (min-width: 768px){
+	.display-4{
+		font-size: 3rem;
+	}
+}
+
+.blog-pagination{
+	margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn{
+	border-radius: 2rem;
+}
+
+/* Blog posts */
+.blog-post{
+	margin-bottom: 4rem;
+}
+
+.blog-post-title{
+	margin-bottom: .25rem;
+	font-size: 2.5rem;
+}
+
+.blog-post-meta{
+	margin-bottom: 1.25rem;
+	color: #999;
+}
+
+.blog-text a{
+	text-decoration: none;
+}
+/* Fim Blog */

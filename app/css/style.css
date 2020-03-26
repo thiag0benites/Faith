@@ -1,0 +1,125 @@
+h2{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+nav {
+    background-color: #009EE0 !important;
+    height: 70px;
+}
+
+nav ul li.nav-item a{
+	color: #fff !important;
+}
+
+nav ul li.nav-item a:hover{
+    text-shadow: 0 0 4px #fff, 0 0 4px #fff;
+}
+
+.email-form{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 15px 30px 15px 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+ .circle-sombra{
+    margin: 0 4px 0 6px;
+ }
+
+ .circle-sombra:hover{
+    -webkit-box-shadow: 0px 2px 18px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 18px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 18px 3px rgba(0,0,0,0.75);
+}
+
+.detalhes p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.endereco{
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #009EE0;
+    color: #fff;
+}
+
+ /*** Classes de herança ***/
+ .depoimento, .detalhes, .sobre, .contato{
+	background-color: #f9faff;
+	border-radius: 0rem;
+	margin-bottom: 0rem !important;
+}
+
+.servicos{
+    /* background-color: rgb(202, 226, 236); */
+    background-color: #fff;
+	border-radius: 0rem;
+	margin-bottom: 0rem !important;
+}
+
+.contato{
+	border-radius: 0rem;
+	margin-bottom: 0rem !important;
+    background-image: url(../img/contato.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sombra, .footer, nav, .card{
+    -webkit-box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.72);
+    box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.72);
+}
+
+/* Menu em telas pequenas */
+@media(max-width: 800px){
+    .navbar-nav li{
+        background-color: #009EE0;
+        text-align: center;
+    }
+}
+
+/* Tela Pequena - celular */
+@media (max-width: 500px){
+    h2{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    #carousel{
+        margin-top: 70px !important;
+    }
+
+    .card-deck{
+        margin-left: calc((100% - 177px) / 2);
+    }
+
+    .card-deck a{
+        margin-bottom: 10px;
+    }
+
+    .email-form{
+        padding: 15px 15px 15px 15px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Tela Pequena - tablet */
+@media (min-width: 501px) and (max-width: 800px){
+    .card-deck{
+        margin-left: calc((100% - 531px) / 2);
+    }
+
+    .card-deck a{
+        margin-bottom: 20px;
+    }
+}
